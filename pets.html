@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Our pets</title>
+</head>
+<body>
+  <div class="modal">
+    <div class="modal__window">
+      <div class="modal__content">
+        <h3>Jennifer</h3>
+        <h4>Dog - Labrador</h4>
+        <h5>Jennifer is a sweet 2 months old Labrador that is patiently waiting 
+          to find a new forever home. This girl really enjoys being able to go 
+          outside to run and play, but won't hesitate to play up a storm in the 
+          house if she has all of her favorite toys.</h5>
+        <ul>
+          <li>Age: 2 months</li>
+          <li>Inoculations: none</li>
+          <li>Diseases: none</li>
+          <li>Parasites: none</li>
+        </ul>
+        <button class="button_secondary button_arrow">&#10006;</button>
+      </div>
+      <img src="assets/images/pets-jennifer.png" alt="" class="modal__img">
+    </div>
+  </div>
+  <div class="wrapper">
+    <header class="header pets sticky">
+      <a href="index.html" class="logo black">
+        <h1 class="logo__title">Cozy House</h1>
+        <p class="logo__subtitle">Shelter for pets in Boston</p>
+      </a>
+      <nav class="nav-menu black not-mobile">
+        <a href="index.html" class="nav-menu__item">About the shelter</a>
+        <a href="" class="nav-menu__item active">Our pets</a>
+        <a href="index.html#help" class="nav-menu__item">Help the shelter</a>
+        <a href="#contacts" class="nav-menu__item">Contacts</a>
+      </nav>
+
+      <div class="hamburger">
+        <span class="hamburger__line black"></span>
+        <span class="hamburger__line black"></span>
+        <span class="hamburger__line black"></span>
+      </div>
+      <nav class="nav-menu-mobile white">
+        <a href="index.html" class="nav-menu-mobile__item">About the shelter</a>
+        <a href="" class="nav-menu-mobile__item active">Our pets</a>
+        <a href="index.html#help" class="nav-menu-mobile__item">Help the shelter</a>
+        <a href="#contacts" class="nav-menu-mobile__item">Contacts</a>
+      </nav>
+      <div class="blur"></div>
+    </header>
+
+    <main class="main">
+      <section class="our-pets">
+        <div class="our-pets__content">
+          <h3>Our friends who<br> are looking for a house</h3>
+          <div class="card-container">
+
+            <div class="card">
+              <img src="assets/images/pets-katrine.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Katrine</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-jennifer.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Jennifer</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-woody.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Woody</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-sophia.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Sophia</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-timmy.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Timmy</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-charly.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Charly</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-scarlet.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Scarlett</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+            <div class="card">
+              <img src="assets/images/pets-freddie.png" alt="human true friend" class="card__pet-image">
+              <p class="card__text">Freddie</p>
+              <button class="button_secondary">Learn more</button>
+            </div>
+
+          </div>
+
+          <div class="pagination">
+            <button class="pagination__button inactive" id="paginationBtnFirst"><<</button>
+            <button class="pagination__button inactive" id="paginationBtnPrevious"><</button>
+            <button class="pagination__button active" id="number">1</button>
+            <button class="pagination__button" id="paginationBtnNext">></button>
+            <button class="pagination__button" id="paginationBtnLast">>></button>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer__content">
+
+        <div class="contacts__wrapper">
+          <div class="contacts">
+            <h3 class="title">For questions and suggestions</h3>
+            <a class="contacts__link" href="mailto:email@shelter.com">
+              <img src="assets/images/footer/icon-email.svg" alt="email icon">
+              <span>email@shelter.com</span>
+            </a>
+            <a href="tel:+13 674 567 75 54" class="contacts__link">
+              <img src="assets/images/footer/icon-phone.svg" alt="phone icon">
+              <span  class="contact__link">+13 674 567 75 54</span>
+            </a>
+          </div>
+          <div class="contacts">
+            <h3>We are waiting for your visit</h3>
+            <a href="https://goo.gl/maps/hCWEFgeJXrdZMesS7" target="_blank" class="contacts__link left">
+              <img src="assets/images/footer/icon-marker.svg" alt="marker icon">
+              <span class="location__text">1 Central Street, Boston<br> (entrance from the store)</span>
+            </a>
+            <a href="https://goo.gl/maps/SkmMvWmnSWmELV9k7" target="_blank" class="contacts__link left">
+              <img src="assets/images/footer/icon-marker.svg" alt="marker icon">
+              <span class="location__text">18 South Park, London </span>
+            </a>
+          </div>
+        </div>
+
+        <img src="assets/images/footer/footer-puppy.png" alt="footer puppy" class="footer__puppy">
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
